@@ -60,8 +60,8 @@ for(index = 0; index < arrayOfPersons.length; index++){
     arrayOfPersons[index].lastModified = date
 }
 
-//verify if person is active of inactive
-var inactivePersons = []
+//verify if person is active or inactive
+const inactivePersons = []
 arrayOfPersons.forEach(element => {
     if(element.Status === "Active"){
         //call function to print
